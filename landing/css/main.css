@@ -16,3 +16,79 @@
     .main
     .footer
 */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr .5fr 2fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+}
+  
+.explore {
+    grid-area: 1 / 1 / 2 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-boxes {
+    grid-area: 2 / 1 / 3 / 4;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.Ease {
+    grid-area: 3 / 1 / 4 / 4;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Ease-img {
+
+}
+
+.Ease-text {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    
+}
+
+.solutions {
+    grid-area: 4 / 1 / 5 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.radials {
+    grid-area: 4 / 1 / 7 / 4;
+}
+
+.rad-top {
+    grid-area: 5 / 1 / 6 / 4;
+    display: flex;
+}
+
+.rad-bot {
+    grid-area: 6 / 1 / 7 / 4;
+    display: flex;
+}
+ 
+.btntop {
+
+}
+
+.learnblue {
+
+}
+
+.learnwhite {
+
+}
