@@ -13,6 +13,142 @@
             .existing-account
             .free-manage-cancel
         .head-box-2
+            <img>
     .main
+        .main-box-1
+            .main-text
+                <h2>
+                <p>
+            .main-icons
+                <img>
+                <img>
+                <img>
+                <img>
+            .main-lg-box
+                .main-lg-box1
+                    .img
+                .main-lg-box2
+                    <h2>
+                    <h3>
+                    <ul>
+                    input[type=button].blue-button
+        .main-box-2
+            <h2>
+            .sol-box-1
+                <img> 
+            .sol-box-2
+                <img>
+            .sol-box-3
+                <img>
+            .sol-box-4
+                <img>
     .footer
+
 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------- CONTAINER ---------------- */
+.container {
+    background-color: yellow;
+    display: grid; 
+    grid-template-rows: 0.5fr 5fr 7fr 2fr;
+    grid-template-columns: minmax(600px,auto);
+    grid-template-areas: 
+      " navbar "
+      " header "
+      " main "
+      " footer "; 
+    justify-content: center;
+}
+
+/* ---------------- NAV BAR ---------------- */
+.navbar {
+    background-color: pink;
+    grid-area: navbar;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.navbar > .logo {
+    /* grid-area: logo; */
+    background: green;
+}
+.logo > img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+.navbar > .navlinks {
+    /* grid-area: navlinks; */
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.navlinks > a {    
+    text-decoration: none;
+    color: black;
+    font-size: small;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.navbar > .buttons {
+    /* grid-area: buttons; */
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+input[type=button] {
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 7.5px;
+    border-color: blue;
+    background: white;
+    width: 75px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+/* ---------------- HEADER ---------------- */
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+}
+
+.head-box-2 > img {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+/* ---------------- MAIN ---------------- */
+.main {
+    grid-area: main;
+}
+
+/* ---------------- NAV BAR ---------------- */
+.footer {
+    grid-area: footer;
+}
+
+
+/* ---------------- Other formatting ---------------- */
