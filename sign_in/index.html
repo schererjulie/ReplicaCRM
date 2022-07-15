@@ -12,17 +12,32 @@
     <div class="container">
         <div class="row">
             <!-- Column 1: Sign Up -->
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-lg-4 d-flex flex-column">
                 <!-- Row 0: Sign Up Words -->
-                <h1 class="fs-1 p-3 fw-bold" id="sign-up">Sign Up</h1>
+                <h1 class="fw-bold d-inline-flex justify-content-center" id="sign-up">Sign Up</h1>
                 <!-- Row 1: Username -->
+                <div class="form-floating mb-4">
+                    <input type="email" class="form-control rounded-pill ps-4 mt-1" id="floatingInput" placeholder="Username">
+                    <label for="floatingInput"><p class="ps-3">Username</p>
+                    </label>
+                </div>
 
                 <!-- Row 2: Email -->
+                <div class="form-floating mb-4">
+                    <input type="email" class="form-control rounded-pill ps-4 mt-1" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput"><p class="ps-3">Email</p></label>
+                </div>
 
                 <!-- Row 3: Password -->
-
+                <div class="form-floating mb-4">
+                    <input type="password" class="form-control rounded-pill ps-4 mt-1" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword"><p class="ps-3">Password</p></label>
+                </div>
+                
                 <!-- Row 4: Sign Up Button -->
-
+                <div class="d-inline-flex justify-content-center">
+                    <button type="button" class="btn btn-primary rounded-pill fs-4 py-2 px-5 fw-bold">Sign Up</button>
+                </div>
                 <!-- Row 5: "Or sign up with social platforms" -->
 
                 <!-- Row 6: Socials -->
@@ -35,8 +50,8 @@
                     <!-- Col 4: LinkedIn -->
             </div>
             <!-- Column 2: Picture -->
-            <div class="col-12 col-md-8">
-                <img src="/images/Group 10@2x.png" alt="Purple themed lady sitting at a desk." class="img-fluid" style="padding-top:75px">
+            <div class="col-12 col-lg-8">
+                <img src="/images/Group 10@2x.png" alt="Purple themed lady sitting at a desk." class="img-fluid" style="padding-top:100px">
             </div>
         </div>
     </div>
