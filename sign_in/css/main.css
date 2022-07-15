@@ -1,2 +1,35 @@
 /* For SIGN IN */
+body {
+    background-image: url(/images/bigbluepng.png);
+    background-size: 66% 100vh;
+    background-repeat: no-repeat;
+}
 
+@media only screen and (max-width: 768px) {
+    body {
+        background-image:none;
+    }
+
+    #sign-up-div {
+        background-color:blue;
+        align-items:center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border-radius: 30px;
+    }
+  }
+  
+
+#sign-in-div {
+    margin-top: 15vh;
+}
+
+#sign-up-div {
+    margin-top: 10vh;
+    color:white;
+}
+
+#skyline {
+    width: 55vh;
+    height: auto;
+}
