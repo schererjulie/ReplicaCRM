@@ -178,6 +178,24 @@ input[type="button"] {
     align-items: center;
 }
 
+.btntop {
+    background-color: white;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    height: 150px;
+    width: 140px;
+    transition-duration: 1s;
+}
+
+.btntop:hover {
+    background-color: blue;
+    color:white
+}
+
 /* ---------------- main center ---------------- */
 .main-center-content {
     display: grid;
@@ -202,6 +220,8 @@ input[type="button"] {
 .main-center-img {
     display: flex;
     align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
 }
 .main-center-img > img {
     width: 100%;
@@ -212,7 +232,20 @@ input[type="button"] {
     /* justify-content: stretch; */
     background-color: blue;
     color: white;
+    margin-top: 60px;
+    margin-bottom: 80px;
 }
+
+ul {
+    list-style-type: none;
+        color:#dfdede;
+}
+      ul li:before {
+        content: '\2011';
+        position: absolute;
+        margin-left: -10px;
+}
+
 
 /* ---------------- main end ---------------- */
 .main-end-content {
@@ -258,8 +291,6 @@ input[type="button"] {
 .footer > h3 {
     font-size: 16px;
 }
-
-
 
 
 /* ---------------- Other formatting ---------------- */
