@@ -1,7 +1,7 @@
 /* For SIGN IN */
 body {
     background-image: url(/images/bigbluepng.png);
-    background-size: 66% 100vh;
+    background-size: 60% 100vh;
     background-repeat: no-repeat;
 }
 
@@ -18,7 +18,6 @@ body {
         border-radius: 30px;
     }
   }
-  
 
 #sign-in-div {
     margin-top: 15vh;
