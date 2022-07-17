@@ -210,6 +210,14 @@ input[type="button"] {
     max-width: 500px;
     width: 100%;
     height: auto;
+    position:absolute;
+    right:12vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .head-box-2 > img {
+        position:relative;
+    }
 }
 
 .free-manage-cancel {
