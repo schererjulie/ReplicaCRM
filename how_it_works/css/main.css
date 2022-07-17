@@ -272,10 +272,9 @@ input[type="button"] {
     /* grid-area: main-head; */
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-area: 
-    " main-head-text "
-    " main-head-boxes ";
+    " main-head-text ";
 }
 .main-head-text {
     display: flex;
@@ -284,11 +283,6 @@ input[type="button"] {
     align-items: center;
     text-align: center;
     margin-top: 20px;
-}
-.main-head-boxes {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 /* ---------------- main center ---------------- */
@@ -332,6 +326,12 @@ input[type="button"] {
     border-top-left-radius: 0;
     border-color: grey;
     border-width: thin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    
 }
 
 /* ---------------- main end ---------------- */
