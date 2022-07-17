@@ -283,6 +283,7 @@ input[type="button"] {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 20px;
 }
 .main-head-boxes {
     display: flex;
@@ -301,11 +302,7 @@ input[type="button"] {
     /* display: flex;
     flex-wrap: nowrap; */ 
 }
-.main-center-content > div {
-    padding: 20px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+
 .main-center-img {
     display: flex;
     align-items: center;
@@ -388,15 +385,9 @@ input[type="button"] {
 
 
 /* ---------------- Other formatting ---------------- */
-.free-manage-cancel {
+.free-manage-cancel-footer {
     display: inline;
     justify-content: center;
     color: white;
     font-size: small;
 }
-
-
-
-
-
-
