@@ -392,11 +392,9 @@ ul {
 
 /* ---------------- Other formatting ---------------- */
 .free-manage-cancel {
-
+    display: inline;
+    justify-content: center;
+    color: white;
+    font-size: small;
 }
-
-
-
-
-
 
